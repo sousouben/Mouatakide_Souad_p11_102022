@@ -1,6 +1,8 @@
-@import "./Apropos.css";
-@import "./Home.css";
-@import "./Page404.css";
-@import "./Pagelogements.css";
-@import "./Header.css";
-@import "./Footer.css"
+/*pages*/
+@import "../pages/Apropos/Apropos.css";
+@import "../pages/Erreur/Page404.css";
+@import "../pages/Home/Home.css";
+@import "../pages/Logements/Pagelogements.css";
+/*components*/
+@import "../Components/Footer/Footer.css";
+@import "../Components/Header/Header.css";

@@ -1,11 +1,9 @@
 import React from "react";
-import "../styles/Pagelogements.css";
-import Header from "../Components/Header";
+import "../Logements/Pagelogements.css";
 
 const Pagelogements = () => {
   return (
     <div>
-      <Header />
       <h1>logements</h1>
     </div>
   );
