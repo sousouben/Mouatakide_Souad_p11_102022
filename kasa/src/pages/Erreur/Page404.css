@@ -11,6 +11,7 @@
 .erreurPage h1 {
   font-size: 288px;
   color: #ff6060;
+  font-weight: 700;
 }
 
 .erreurPage span {
