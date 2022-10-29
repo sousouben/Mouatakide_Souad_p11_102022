@@ -1,6 +1,16 @@
-.banniere {
+.banniere-logement {
   height: 415px;
+  width: 90%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 40px;
 }
-.banniere img {
+.banniere-logement img {
   height: 415px;
+  width: 100%;
+  border-radius: 25px;
+  object-fit: cover;
 }

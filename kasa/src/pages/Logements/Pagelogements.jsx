@@ -5,7 +5,7 @@ import interLogement from "../../assets/images/interieur.png";
 function Pagelogements() {
   return (
     <div className="logementSelectionner">
-      <div className="banniere">
+      <div className="banniere-logement">
         <img src={interLogement} alt="logement séléctionné" />
       </div>
       <div className="titreLogement">

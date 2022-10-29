@@ -3,8 +3,8 @@ import "./Carroussel.css";
 /*import droite from "../../assets/icones/droite.png";
 import gauche from "../../assets/icones/gauche.png";*/
 
-const Carroussel = () => {
+function Carroussel() {
   return <div></div>;
-};
+}
 
 export default Carroussel;
