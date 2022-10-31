@@ -1,0 +1,12 @@
+.precedent,
+.suivant {
+  margin-top: 10%;
+  position: absolute;
+  width: 46.68px;
+  height: 79.2px;
+  cursor: pointer;
+}
+
+.precedent {
+  margin-left: 1.5%;
+}

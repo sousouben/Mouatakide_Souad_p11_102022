@@ -1,7 +1,7 @@
 import React from "react";
 import "./Tags.css";
-const Tags = () => {
-  return <div></div>;
-};
+function Tags(props) {
+  return <p className="tag">{props.tagsNom}</p>;
+}
 
 export default Tags;
