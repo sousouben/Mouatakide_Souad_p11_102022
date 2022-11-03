@@ -25,7 +25,7 @@ const App = () => {
           <Route path="/Logement/:logementId" element={<Pagelogements />} />
           <Route path="/Apropos" element={<Apropos />} />
           {/* si ne correspond à aucun chemin (path)*/}
-          <Route path="/*" element={<Page404 />} />
+          <Route path="*" element={<Page404 />} />
         </Routes>
       </BrowserRouter>
       <Footer />

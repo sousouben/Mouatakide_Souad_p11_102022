@@ -3,12 +3,15 @@ import "./Pagelogements.css";
 import { getId } from "../../data/services";
 import { useParams } from "react-router-dom";
 import Carroussel from "../../Components/Carroussel/Carroussel";
+import Page404 from "../Erreur/Page404";
 
 function Pagelogements() {
   const { logementId } = useParams();
   const ficheLogement = getId(logementId);
 
-  return (
+  return Pagelogements === undefined ? (
+    <Page404 />
+  ) : (
     <div className="ficheLogement">
       <div className="navig">
         <Carroussel pictures={ficheLogement.pictures} />
