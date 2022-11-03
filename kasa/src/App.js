@@ -17,17 +17,19 @@ import Page404 from "./pages/Erreur/Page404";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Apropos" element={<Apropos />} />
-        <Route path="/Logement" element={<Pagelogements />} />
-        {/* si ne correspond à aucun chemin (path)*/}
-        <Route path="/*" element={<Page404 />} />
-      </Routes>
+    <React.StrictMode>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Logement/:logementId" element={<Pagelogements />} />
+          <Route path="/Apropos" element={<Apropos />} />
+          {/* si ne correspond à aucun chemin (path)*/}
+          <Route path="/*" element={<Page404 />} />
+        </Routes>
+      </BrowserRouter>
       <Footer />
-    </BrowserRouter>
+    </React.StrictMode>
   );
 };
 

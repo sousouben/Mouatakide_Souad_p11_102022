@@ -1,14 +1,17 @@
 import React from "react";
 import "./Pagelogements.css";
-import interLogement from "../../assets/images/interieur.png";
+import { getId } from "../../data/services";
+import { useParams } from "react-router-dom";
 import Carroussel from "../../Components/Carroussel/Carroussel";
 
 function Pagelogements() {
+  const { logementId } = useParams();
+  const ficheLogement = getId(logementId);
+
   return (
-    <div className="logementSelectionner">
-      <div className="banniere-logement">
-        <Carroussel />
-        <img src={interLogement} alt="logement séléctionné" />
+    <div className="ficheLogement">
+      <div className="navig">
+        <Carroussel pictures={ficheLogement.pictures} />
       </div>
       <div className="titreLogement">
         <div className="titre-nom">

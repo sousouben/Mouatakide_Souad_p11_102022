@@ -1,12 +1,22 @@
+.photo {
+  margin-bottom: 50px;
+  border-radius: 25px;
+  height: 415px;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
 .precedent,
 .suivant {
   margin-top: 10%;
   position: absolute;
-  width: 46.68px;
-  height: 79.2px;
+  width: 46px;
+  height: 79 px;
   cursor: pointer;
 }
-
 .precedent {
   margin-left: 1.5%;
+}
+.navigation .suivant {
+  margin-left: 86%;
 }
