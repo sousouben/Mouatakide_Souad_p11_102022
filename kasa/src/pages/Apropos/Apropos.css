@@ -5,22 +5,22 @@
   margin-bottom: 20px;
   border-radius: 25px;
 }
-.apropos .dropdown {
+.about .dropdown {
   width: 70%;
   margin-top: 15px;
   margin-left: 15%;
   margin-bottom: 10px;
 }
-.apropos .titre-dropdown {
+.about .titre-dropdown {
   width: 100%;
 }
-.apropos .dropdown p {
+.about .dropdown p {
   height: auto;
   padding: 10px 30px 10px 30px;
   width: 100%;
   color: #ff6060;
   background-color: #f6f6f6;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 34px;
   letter-spacing: 0em;

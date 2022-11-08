@@ -4,6 +4,7 @@ import { getId } from "../../data/services";
 import { useParams } from "react-router-dom";
 import Carroussel from "../../Components/Carroussel/Carroussel";
 import Page404 from "../Erreur/Page404";
+import Dropdown from "../../Components/Dropdown/Dropdown";
 
 function Pagelogements() {
   const { logementId } = useParams();
@@ -18,21 +19,26 @@ function Pagelogements() {
       </div>
       <div className="titreLogement">
         <div className="titre-nom">
-          <h2>titre</h2>
-          <p>sous-titre</p>
+          <h2>{ficheLogement.title}</h2>
+          <p>{ficheLogement.location}</p>
+        </div>
+        <div className="nomLogement">
+          <h3>{ficheLogement.host.name}</h3>
+          <img src={ficheLogement.host.picture} alt="" />
         </div>
       </div>
-      <div className="nomLogement">
-        <h3>Nom</h3>
-        <div className="avatar"></div>
-      </div>
+
       <div className="tag-evaluation">
-        <div className="tags"></div>
-        <div className="nbre-etoile"></div>
+        <div className="tags">{ficheLogement.tags}</div>
+        <div className="start"></div>
       </div>
-      <div className="descrpt-epuip">
-        <div className="descrption"></div>
-        <div className="equipements"></div>
+      <div className="descript-epuip">
+        <div className="description">
+          <Dropdown title="Descrition" text={ficheLogement.description} />
+        </div>
+        <div className="equipements">
+          <Dropdown title="Equipements" text={ficheLogement.equipments} />
+        </div>
       </div>
     </div>
   );

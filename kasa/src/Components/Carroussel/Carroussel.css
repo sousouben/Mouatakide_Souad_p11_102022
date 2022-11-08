@@ -2,8 +2,8 @@
   margin-bottom: 50px;
   border-radius: 25px;
   height: 415px;
-  background-size: cover;
-  background-blend-mode: darken;
+  object-fit: cover;
+  width: 100%;
 }
 
 .precedent,
@@ -11,7 +11,7 @@
   margin-top: 10%;
   position: absolute;
   width: 46px;
-  height: 79 px;
+  height: 79px;
   cursor: pointer;
 }
 .precedent {

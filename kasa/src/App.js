@@ -4,11 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //import components
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
-//import Carrouselle from "./Components/Carroussel/Carroussel";
-//import Dropdown from "./Components/Dropdown/Dropdown";
-//import Gallery from "./Components/Gallery/Gallery";
-//import Tags from "./Components/Tags/Tags";
-
 //import pages
 import Home from "./pages/Home/Home";
 import Apropos from "./pages/Apropos/Apropos";

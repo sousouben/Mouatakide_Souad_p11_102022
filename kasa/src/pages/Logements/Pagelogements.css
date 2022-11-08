@@ -4,3 +4,73 @@
   margin-left: 100px;
   margin-top: 40px;
 }
+
+.titreLogement {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+.titre-nom {
+  width: 70%;
+}
+
+.titre-nom h2 {
+  color: #ff6060;
+  font-size: 36px;
+  margin-top: 5px;
+}
+
+.titre-nom p {
+  color: #ff6060;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.nomLogement {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+}
+
+.nomLogement h3 {
+  text-align: right;
+  width: 90px;
+  height: 52px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #ff6060;
+}
+
+.nomLogement img {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.descript-epuip {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.description,
+.equipements {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.description p,
+.equipements ul {
+  background-color: #f6f6f6;
+  font-size: 18px;
+  color: #ff6060;
+  height: auto;
+  padding: 10px 30px 10px 30px;
+}
