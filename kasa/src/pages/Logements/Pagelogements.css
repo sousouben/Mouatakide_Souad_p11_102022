@@ -73,4 +73,21 @@
   color: #ff6060;
   height: auto;
   padding: 10px 30px 10px 30px;
+  font-weight: 400;
+}
+
+.equipements li {
+  font-weight: 400;
+}
+
+.tag-evaluation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-left: 100px;
+  width: 90%;
+}
+.tags {
+  display: flex;
+  width: 50%;
 }

@@ -2,10 +2,15 @@
   margin-bottom: 50px;
   border-radius: 25px;
   height: 415px;
-  object-fit: cover;
   width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.photo p {
+  color: transparent;
+}
 .precedent,
 .suivant {
   margin-top: 10%;
