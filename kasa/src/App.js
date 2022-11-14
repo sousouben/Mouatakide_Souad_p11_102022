@@ -17,8 +17,8 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Logement/:logementId" element={<Pagelogements />} />
-          <Route path="/Apropos" element={<Apropos />} />
+          <Route path="/logement/:logementId" element={<Pagelogements />} />
+          <Route path="/apropos" element={<Apropos />} />
           {/* si ne correspond à aucun chemin (path)*/}
           <Route path="*" element={<Page404 />} />
         </Routes>

@@ -41,7 +41,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   width: 90%;
-  height: 829px;
+  height: auto;
   border-radius: 25px;
   background-color: #f7f7f7;
   margin-top: 40px;
@@ -50,5 +50,5 @@
   margin-left: 100px;
   margin-right: 0px;
   padding-top: 40px;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }

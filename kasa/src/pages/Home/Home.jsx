@@ -15,7 +15,7 @@ const Home = () => {
       </div>
       <div className="GalerryLogements">
         {getLogements().map((logement) => (
-          <Link to={`/Logement/${logement.id}`} key={logement.id}>
+          <Link to={`/logement/${logement.id}`} key={logement.id}>
             <Gallery
               cover={logement.cover}
               title={logement.title}

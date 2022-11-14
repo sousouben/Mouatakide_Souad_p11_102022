@@ -5,10 +5,16 @@ import { useParams } from "react-router-dom";
 import Carroussel from "../../Components/Carroussel/Carroussel";
 import Dropdown from "../../Components/Dropdown/Dropdown";
 import Tag from "../../Components/Tags/Tags";
+import Page404 from "../Erreur/Page404";
+import StarRating from "../../Components/StarRating/StarRating";
 
 function Pagelogements() {
   const { logementId } = useParams();
   const ficheLogement = getId(logementId);
+
+  if (ficheLogement === undefined || ficheLogement === null) {
+    return <Page404 />;
+  }
 
   return (
     <div className="ficheLogement">
@@ -35,7 +41,9 @@ function Pagelogements() {
             <Tag tagsNom={tag} key={tag} />
           ))}
         </div>
-        <div className="star"></div>
+        <div className="nameRating">
+          <StarRating rating={ficheLogement.rating} />
+        </div>
       </div>
       <div className="descript-epuip">
         <div className="description">

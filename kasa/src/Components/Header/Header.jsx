@@ -13,7 +13,7 @@ const Header = () => {
             Accueil
           </NavLink>
           <NavLink
-            to="/Apropos"
+            to="/apropos"
             className={(Apropos) => (Apropos.isActive ? "active" : "")}
           >
             À Propos
