@@ -1,19 +1,19 @@
 import React from "react";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/logo/logo.png";
+import logo from "../../assets/logo/logoHeader.png";
 
-const Header = () => {
+function Header() {
   return (
-    <div className="header">
+    <div className="Header">
       <header>
-        <img src={logo} alt="logo site kasa" />
+        <img src={logo} alt="logo Kasa" />
         <nav>
           <NavLink to="/" className={(Home) => (Home.isActive ? "active" : "")}>
             Accueil
           </NavLink>
           <NavLink
-            to="/apropos"
+            to="/Apropos"
             className={(Apropos) => (Apropos.isActive ? "active" : "")}
           >
             À Propos
@@ -22,6 +22,6 @@ const Header = () => {
       </header>
     </div>
   );
-};
+}
 
 export default Header;

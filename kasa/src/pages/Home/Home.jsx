@@ -13,7 +13,7 @@ const Home = () => {
         <h1>Chez vous, partout et ailleurs</h1>
         <div className="filtre"></div>
       </div>
-      <div className="GalerryLogements">
+      <div className="GalleryLogements">
         {getLogements().map((logement) => (
           <Link to={`/logement/${logement.id}`} key={logement.id}>
             <Gallery

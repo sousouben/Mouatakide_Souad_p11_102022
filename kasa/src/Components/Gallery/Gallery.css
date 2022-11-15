@@ -1,7 +1,6 @@
 .gallery {
   position: relative;
   margin-bottom: 39px;
-  background: #f6f6f6;
 }
 
 .gallery img {
@@ -36,4 +35,23 @@
   font-size: 16px;
   line-height: 20px;
   color: white;
+}
+@media screen and (max-width: 375px) {
+  .gallery,
+  .gallery img,
+  .filtreGallery {
+    width: 335px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .filtreGallery {
+    margin-top: -60.5%;
+  }
+  .gallery {
+    margin-bottom: 20px;
+  }
+  .gallery h2 {
+    font-size: 14px;
+    margin-top: -15%;
+  }
 }

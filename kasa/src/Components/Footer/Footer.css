@@ -10,14 +10,24 @@ footer {
 }
 
 footer img {
-  width: 122px;
+  width: 100px;
   height: 40px;
   margin-bottom: 30px;
-  margin-top: 66px;
 }
 
 footer p {
   color: white;
   font-size: 24px;
-  margin-bottom: 29px;
+}
+
+@media screen and (max-width: 375px) {
+  footer img {
+    margin-bottom: 10px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  footer {
+    margin-top: 20px;
+  }
 }

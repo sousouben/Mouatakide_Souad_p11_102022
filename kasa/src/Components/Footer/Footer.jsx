@@ -2,17 +2,13 @@ import React from "react";
 import "./Footer.css";
 import logoFooter from "../../assets/logo/logoFooter.png";
 
-const Footer = () => {
+function Footer() {
   return (
     <footer>
-      <img
-        src={logoFooter}
-        width="100px"
-        alt="logo du site kasa dans le pied de page"
-      />
+      <img src={logoFooter} alt="logo pied de page en noir" />
       <p>© 2020 Kasa. All rights reserved</p>
     </footer>
   );
-};
+}
 
 export default Footer;
