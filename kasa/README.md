@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+### Projet 11 Développez une application Web avec React et React Router - Openclassroom
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PROBLEMATIQUE Le site de Kasa, plateforme de location de logements entre particuliers (plus de 500 annonces postées par jour), a été codé il y a plus de 10 ans en ASP.NET avec un code legacy important.
 
-## Available Scripts
+BESOIN Refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté Back-end, et React côté Front-end.
 
-In the project directory, you can run:
+#### Livrables
 
-### `npm start`
+React App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Le code React du projet ;
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Le code React Router pour les routes dans un fichier dédié.
 
-### `npm test`
+##### Compétences développées
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Créer des composants avec React
 
-### `npm run build`
+Développer les routes d'une application web avec React Router
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Initialiser une application web avec un framework
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+###### Ressources fournies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Guide des étapes clés: https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P8+React+Kasa/Guide+d'etapes+cles+-+Creez+une+application+web+de+location+immobiliere+avec+React+1.pdf
 
-### `npm run eject`
+Fichier JSON: https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Outils et contraintes techniques: https://course.oc-static.com/projects/Front-End+V2/P9+React+1/Coding+guidelines+Kasa+FR.pdf
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Maquettes Figma: https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design?node-id=4%3A1
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+####### Installer
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Available Scripts
 
-## Learn More
+In the project directory, run the app in the development mode with npm start
+Open http://localhost:3000 to view it in your browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Learn More
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React documentation: https://reactjs.org/
