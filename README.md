@@ -32,7 +32,7 @@ Outils et contraintes techniques: https://course.oc-static.com/projects/Front-En
 
 Maquettes Figma: https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design?node-id=4%3A1
 
-####### Installer
+######Installer
 
 Available Scripts
 
