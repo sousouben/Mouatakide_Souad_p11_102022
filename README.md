@@ -1,5 +1,7 @@
 # Mouatakide_Souad_p11_102022
 
+Rectangle 1.png
+
 ### Projet 11 Développez une application Web avec React et React Router - Openclassroom
 
 PROBLEMATIQUE Le site de Kasa, plateforme de location de logements entre particuliers (plus de 500 annonces postées par jour), a été codé il y a plus de 10 ans en ASP.NET avec un code legacy important.
