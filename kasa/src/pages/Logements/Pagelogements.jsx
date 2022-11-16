@@ -25,26 +25,28 @@ function Pagelogements() {
         <div className="titre-nom">
           <h2>{ficheLogement.title}</h2>
           <p>{ficheLogement.location}</p>
+          <div className="tag-evaluation">
+            <div className="tags">
+              {ficheLogement.tags.map((tag) => (
+                <Tag tagsNom={tag} key={tag} />
+              ))}
+            </div>
+          </div>
         </div>
         <div className="nomLogement">
-          <h3>{ficheLogement.host.name}</h3>
-          <img
-            src={ficheLogement.host.picture}
-            alt={ficheLogement.host.picture}
-          />
+          <div className="heberger">
+            <h3>{ficheLogement.host.name}</h3>
+            <img
+              src={ficheLogement.host.picture}
+              alt={ficheLogement.host.picture}
+            />
+          </div>
+          <div className="nameRating">
+            <StarRating rating={ficheLogement.rating} />
+          </div>
         </div>
       </div>
 
-      <div className="tag-evaluation">
-        <div className="tags">
-          {ficheLogement.tags.map((tag) => (
-            <Tag tagsNom={tag} key={tag} />
-          ))}
-        </div>
-        <div className="nameRating">
-          <StarRating rating={ficheLogement.rating} />
-        </div>
-      </div>
       <div className="descript-epuip">
         <div className="description">
           <Dropdown title="Descrition" text={ficheLogement.description} />

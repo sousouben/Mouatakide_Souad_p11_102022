@@ -5,21 +5,23 @@ import logo from "../../assets/logo/logoHeader.png";
 
 function Header() {
   return (
-    <div className="Header">
-      <header>
-        <img src={logo} alt="logo Kasa" />
-        <nav>
+    <div className="header">
+      <div className="logo">
+        <img src={logo} alt="logo kasa" />
+      </div>
+      <div className="navigation">
+        <ul>
           <NavLink to="/" className={(Home) => (Home.isActive ? "active" : "")}>
-            Accueil
+            <li>Accueil</li>
           </NavLink>
           <NavLink
             to="/Apropos"
             className={(Apropos) => (Apropos.isActive ? "active" : "")}
           >
-            À Propos
+            <li>À Propos</li>
           </NavLink>
-        </nav>
-      </header>
+        </ul>
+      </div>
     </div>
   );
 }

@@ -1,27 +1,26 @@
 .photo {
-  margin-bottom: 50px;
   border-radius: 25px;
-  height: 415px;
   width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 415px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .photo p {
   color: transparent;
 }
-.precedent,
-.suivant {
-  margin-top: 10%;
+
+.navigation .precedent {
   position: absolute;
-  width: 46px;
-  height: 79px;
-  cursor: pointer;
-}
-.precedent {
-  margin-left: 1.5%;
+  left: 6px;
+  width: 45px;
+  height: 90px;
+  top: 180px;
 }
 .navigation .suivant {
-  margin-left: 86%;
+  position: absolute;
+  right: 6px;
+  width: 45px;
+  height: 90px;
+  top: 180px;
 }

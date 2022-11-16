@@ -7,7 +7,7 @@ import { getLogements } from "../../data/services";
 
 const Home = () => {
   return (
-    <div className="Home">
+    <div className="main">
       <div className="banniere">
         <img src={home} alt="bannière de la page d'acceuil" />
         <h1>Chez vous, partout et ailleurs</h1>

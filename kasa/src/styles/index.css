@@ -17,8 +17,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+#root {
+  color: #ff6060;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  font-style: normal;
+}
+li {
+  list-style-type: none;
 }

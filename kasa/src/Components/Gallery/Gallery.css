@@ -1,6 +1,10 @@
 .gallery {
   position: relative;
-  margin-bottom: 39px;
+  width: 21rem;
+  height: 21rem;
+  border-radius: 10px;
+  margin: 2rem;
+  cursor: pointer;
 }
 
 .gallery img {
@@ -16,6 +20,11 @@
   );
 }
 
+.gallery:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 10px #ff6060;
+  opacity: 0.5;
+}
 .gallery,
 .gallery img,
 .filtreGallery {
