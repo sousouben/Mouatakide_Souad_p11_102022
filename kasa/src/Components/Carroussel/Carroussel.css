@@ -4,6 +4,7 @@
   height: 415px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .photo p {

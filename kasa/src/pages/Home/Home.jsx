@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
-import home from "../../assets/images/banniereAccueil.png";
+import Banniere from "../../Components/Banniere/Banniere";
+import Image from "../../assets/images/banniereAccueil.png";
 import Gallery from "../../Components/Gallery/Gallery";
 import { Link } from "react-router-dom";
 import { getLogements } from "../../data/services";
@@ -8,11 +9,7 @@ import { getLogements } from "../../data/services";
 const Home = () => {
   return (
     <div className="main">
-      <div className="banniere">
-        <img src={home} alt="bannière de la page d'acceuil" />
-        <h1>Chez vous, partout et ailleurs</h1>
-        <div className="filtre"></div>
-      </div>
+      <Banniere image={Image} />
       <div className="GalleryLogements">
         {getLogements().map((logement) => (
           <Link to={`/logement/${logement.id}`} key={logement.id}>

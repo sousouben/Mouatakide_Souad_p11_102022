@@ -1,16 +1,13 @@
 import React from "react";
 import "./Apropos.css";
-import apropos from "../../assets/images/banniereApropos.png";
+import Image from "../../assets/images/banniereApropos.png";
 import Dropdown from "../../Components/Dropdown/Dropdown";
+import Banniere from "../../Components/Banniere/Banniere";
 
 function Apropos() {
   return (
-    <div className="apropos">
-      <img
-        className="baniere-a-propos"
-        src={apropos}
-        alt="Chaine de montagnes"
-      />
+    <div className="main-banner">
+      <Banniere image={Image} />
       <div className="about">
         <Dropdown
           title="Fiabilité"

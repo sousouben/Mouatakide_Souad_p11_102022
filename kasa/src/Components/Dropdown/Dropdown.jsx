@@ -4,15 +4,15 @@ import open from "../../assets/icones/ouvert.png";
 import "./Dropdown.css";
 
 function Dropdown({ title, text, extraClass }) {
-  const [dropdownOpen, setDropdown] = useState(false);
+  const [dropdownStart, setDropdown] = useState(false);
 
-  return dropdownOpen ? (
+  return dropdownStart ? (
     <div className={extraClass ? "dropdown " + extraClass : "dropdown"}>
       <div className="titre-dropdown">
         <h3>{title}</h3>
         <img
-          src={close}
-          alt="Contenu invisible"
+          src={open}
+          alt="Contenu visible"
           onClick={() => setDropdown(false)}
         />
       </div>
@@ -23,8 +23,8 @@ function Dropdown({ title, text, extraClass }) {
       <div className="titre-dropdown">
         <h3>{title}</h3>
         <img
-          src={open}
-          alt="Contenu visible"
+          src={close}
+          alt="Contenu invisible"
           onClick={() => setDropdown(true)}
         />
       </div>
