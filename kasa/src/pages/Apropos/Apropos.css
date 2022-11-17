@@ -39,3 +39,26 @@
 .main-banner h1 {
   color: transparent !important;
 }
+
+@media screen and (min-width: 993px) and (max-width: 1220px) {
+  .main-banner {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .main-banner {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .main-banner {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .main-banner {
+    width: 90%;
+  }
+}

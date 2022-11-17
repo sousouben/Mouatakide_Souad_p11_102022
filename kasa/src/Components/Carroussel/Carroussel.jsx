@@ -23,7 +23,7 @@ function Carroussel({ pictures }) {
 
   function navigation() {
     return (
-      <div className="navigation">
+      <div className="navigation-photo">
         <img src={gauche} className="precedent" onClick={btnprecedent} alt="" />
 
         <img src={droite} className="suivant" onClick={btnsuivant} alt="" />

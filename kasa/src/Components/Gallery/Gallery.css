@@ -52,6 +52,7 @@
     width: 335px;
     height: 255px;
     border-radius: 10px;
+    margin: 0;
   }
   .filtreGallery {
     margin-top: -77.5%;

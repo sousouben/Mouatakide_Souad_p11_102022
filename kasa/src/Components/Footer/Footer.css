@@ -10,7 +10,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   margin-top: 4rem;
-  padding-top: 2rem;
+  padding-top: 209px;
 }
 
 footer p {
@@ -20,26 +20,15 @@ footer p {
   .footer {
     font-size: 12px;
   }
-  p {
-    margin: 15px 0;
-  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
   footer {
-    height: 100px;
     font-size: 12px;
-  }
-  footer p {
-    margin: 15px 0;
   }
 }
 @media only screen and (max-width: 374px) {
   footer {
-    height: 100px;
     font-size: 12px;
-  }
-  footer p {
-    margin: 15px 0;
   }
 }

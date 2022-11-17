@@ -120,3 +120,119 @@
   display: flex;
   width: auto;
 }
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .descript-epuip {
+    flex-flow: column;
+  }
+  .titreLogement {
+    flex-direction: column;
+  }
+  .titre-nom {
+    width: 100%;
+  }
+  .titre-nom h2 {
+    font-size: 18px;
+  }
+  .titre-nom p {
+    font-size: 14px;
+  }
+  .tags p {
+    font-size: 10px;
+  }
+  .nomLogement {
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .heberger img {
+    width: 32px;
+    height: 32px;
+  }
+  .heberger h3 {
+    font-size: 12px;
+  }
+  .heberger {
+    width: 50%;
+  }
+  .nameRating {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .descript-epuip {
+    flex-flow: column;
+  }
+  .titreLogement {
+    flex-direction: column;
+  }
+  .titre-nom {
+    width: 100%;
+  }
+  .titre-nom h2 {
+    font-size: 18px;
+  }
+  .titre-nom p {
+    font-size: 14px;
+  }
+  .tags p {
+    font-size: 10px;
+  }
+  .nomLogement {
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .heberger img {
+    width: 32px;
+    height: 32px;
+  }
+  .heberger h3 {
+    font-size: 12px;
+  }
+  .heberger {
+    width: 50%;
+  }
+  .nameRating {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .descript-epuip {
+    flex-flow: column;
+  }
+  .titreLogement {
+    flex-direction: column;
+  }
+  .titre-nom {
+    width: 100%;
+  }
+  .titre-nom h2 {
+    font-size: 18px;
+  }
+  .titre-nom p {
+    font-size: 14px;
+  }
+  .tags p {
+    font-size: 10px;
+  }
+  .nomLogement {
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .heberger img {
+    width: 32px;
+    height: 32px;
+  }
+  .heberger h3 {
+    font-size: 12px;
+  }
+  .heberger {
+    width: 50%;
+  }
+  .nameRating {
+    margin-top: 0;
+  }
+}

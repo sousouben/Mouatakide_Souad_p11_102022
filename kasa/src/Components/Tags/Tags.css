@@ -10,3 +10,20 @@
   flex-flow: row wrap;
   justify-content: flex-start;
 }
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .tag {
+    min-width: 100px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .tag {
+    min-width: 100px;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .tag {
+    min-width: 100px;
+  }
+}
