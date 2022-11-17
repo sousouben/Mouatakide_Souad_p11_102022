@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 //import components
 import Header from "./Components/Header/Header";
@@ -16,7 +16,8 @@ const App = () => {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/logement/:logementId" element={<Pagelogements />} />
           <Route path="/apropos" element={<Apropos />} />
           {/* si ne correspond à aucun chemin (path)*/}

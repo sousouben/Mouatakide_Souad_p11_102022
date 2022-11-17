@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo/logoHeader.png";
 
 function Header() {
+  let activeClassName = "underline";
   return (
     <div className="header">
       <div className="logo">
@@ -11,15 +12,26 @@ function Header() {
       </div>
       <div className="navigation">
         <ul>
-          <NavLink to="/" className={(Home) => (Home.isActive ? "active" : "")}>
-            <li>Accueil</li>
-          </NavLink>
-          <NavLink
-            to="/Apropos"
-            className={(Apropos) => (Apropos.isActive ? "active" : "")}
-          >
-            <li>À Propos</li>
-          </NavLink>
+          <li>
+            <NavLink
+              to="home"
+              className={({ isActive }) =>
+                isActive ? activeClassName : undefined
+              }
+            >
+              Accueil
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="apropos"
+              className={({ isActive }) =>
+                isActive ? activeClassName : undefined
+              }
+            >
+              À Propos
+            </NavLink>
+          </li>
         </ul>
       </div>
     </div>
