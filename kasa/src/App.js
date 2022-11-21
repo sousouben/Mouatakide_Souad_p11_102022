@@ -30,3 +30,5 @@ const App = () => {
 };
 
 export default App;
+
+//Fichier contenant le router du projet, création des chemins vers chaques pages
