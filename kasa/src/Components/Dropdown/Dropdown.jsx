@@ -12,7 +12,7 @@ function Dropdown({ title, text, extraClass }) {
         <h3>{title}</h3>
         <img
           src={open}
-          alt="Contenu visible"
+          alt="ouverture collapse"
           onClick={() => setDropdown(false)}
         />
       </div>
@@ -24,7 +24,7 @@ function Dropdown({ title, text, extraClass }) {
         <h3>{title}</h3>
         <img
           src={close}
-          alt="Contenu invisible"
+          alt="fermeture collapse"
           onClick={() => setDropdown(true)}
         />
       </div>
