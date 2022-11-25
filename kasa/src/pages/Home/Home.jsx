@@ -6,7 +6,7 @@ import Gallery from "../../Components/Gallery/Gallery";
 import { Link } from "react-router-dom";
 import { getLogements } from "../../data/services";
 
-const Home = () => {
+function Home() {
   return (
     <div className="main">
       <Banniere image={Image} />
@@ -23,7 +23,7 @@ const Home = () => {
       </div>
     </div>
   );
-};
+}
 // Récupération de la gallery par la fonction getLogements() en utilisant les mots clés de la data
 
 export default Home;

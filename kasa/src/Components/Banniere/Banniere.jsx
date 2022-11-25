@@ -1,7 +1,7 @@
 import React from "react";
 import "./Banniere.css";
 
-const Banniere = ({ image }) => {
+function Banniere({ image }) {
   return (
     <div className="banniere">
       <img src={image} alt="" className="bannerImg" />
@@ -9,6 +9,6 @@ const Banniere = ({ image }) => {
       <div className="filtre"></div>
     </div>
   );
-};
+}
 
 export default Banniere;

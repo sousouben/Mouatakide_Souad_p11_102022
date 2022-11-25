@@ -2,7 +2,7 @@ import React from "react";
 import "./Page404.css";
 import { Link } from "react-router-dom";
 
-const Page404 = () => {
+function Page404() {
   return (
     <div className="erreurPage">
       <h1>404</h1>
@@ -13,6 +13,6 @@ const Page404 = () => {
       </Link>
     </div>
   );
-};
+}
 
 export default Page404;

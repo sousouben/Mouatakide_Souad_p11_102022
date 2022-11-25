@@ -1,11 +1,11 @@
 import React from "react";
 import "./Pagelogements.css";
 import { getId } from "../../data/services";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import Carroussel from "../../Components/Carroussel/Carroussel";
 import Dropdown from "../../Components/Dropdown/Dropdown";
 import Tag from "../../Components/Tags/Tags";
-import Page404 from "../Erreur/Page404";
+
 import StarRating from "../../Components/StarRating/StarRating";
 
 function Pagelogements() {
@@ -13,7 +13,7 @@ function Pagelogements() {
   const ficheLogement = getId(logementId);
 
   if (ficheLogement === undefined || ficheLogement === null) {
-    return <Page404 />;
+    return <Navigate to="/Page404"></Navigate>;
   }
 
   return (
