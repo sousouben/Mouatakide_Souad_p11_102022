@@ -13,7 +13,7 @@ function Pagelogements() {
   const ficheLogement = getId(logementId);
 
   if (ficheLogement === undefined || ficheLogement === null) {
-    return <Navigate to="/Page404"></Navigate>;
+    return <Navigate to="/page404"></Navigate>;
   }
 
   return (
