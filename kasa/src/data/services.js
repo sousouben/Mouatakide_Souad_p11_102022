@@ -13,7 +13,7 @@ function getLogements() {
 
 //filtre les logements par id
 function getId(id) {
-  return logements.filter((logement) => logement.id === id)[0];
+  return logements.find((logement) => logement.id === id);
 }
 
 export { getLogements, getId };
